@@ -5,7 +5,7 @@ resource "aws_db_subnet_group" "swiggy-db-sub-grp" {
 }
 
 resource "aws_db_instance" "swiggy-db" {
-  allocated_storage           = 50
+  allocated_storage           = 10
   storage_type                = "gp3"
   engine                      = "mysql"
   engine_version              = "8.0.41"
